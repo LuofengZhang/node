@@ -1,0 +1,21 @@
+oagjM4lW23QMBfRyI4aZAWhMUo3Y
+
+CREATE TABLE persons
+(
+openid varchar(255) NOT NULL,
+username varchar(255),
+City varchar(255),
+createtime varchar(255),
+PRIMARY KEY (openid)
+)
+
+INSERT INTO persons 
+(
+openid,
+createtime
+) 
+VALUES
+(
+'oagjM4lW23QMBfRyI4aZAWhMUo3Y',
+1522394560159
+)
