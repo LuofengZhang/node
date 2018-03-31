@@ -19,3 +19,12 @@ VALUES
 'oagjM4lW23QMBfRyI4aZAWhMUo3Y',
 1522394560159
 )
+
+create table news
+(
+newsid int NOT NULL,
+title varchar(255),
+images varchar(255),
+createtime bigint,
+PRIMARY KEY (newsid)
+)
